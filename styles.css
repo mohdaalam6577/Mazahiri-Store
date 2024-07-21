@@ -99,7 +99,7 @@ main .right-line{
 .row-1{
     width: 100%;
     height: 500px;
-    margin-top: 10px;
+/*     margin-top: 10px; */
     /* border: 2px solid; */
     position: relative;
 }
@@ -168,7 +168,7 @@ button:hover {
 .row-2{
     width: 100%;
     height: 500px;
-    margin-top: 10px;
+/*     margin-top: 10px; */
     /* border: 2px solid; */
     position: relative;
 }
@@ -195,7 +195,7 @@ button:hover {
 .row-3{
     width: 100%;
     height: 500px;
-    margin-top: 10px;
+/*     margin-top: 10px; */
     /* border: 2px solid; */
     position: relative;
 }
@@ -222,7 +222,7 @@ button:hover {
 .row-4{
     width: 100%;
     height: 500px;
-    margin-top: 10px;
+/*     margin-top: 10px; */
     /* border: 2px solid; */
     position: relative;
 }
@@ -249,7 +249,7 @@ button:hover {
 .row-5{
     width: 100%;
     height: 500px;
-    margin-top: 10px;
+/*     margin-top: 10px; */
     /* border: 2px solid; */
     position: relative;
 }
@@ -277,7 +277,7 @@ footer{
     width: 100%;
     height: 40px;
     background-color: #32012F;
-    margin-top: 10px;
+/*     margin-top: 10px; */
     text-align: center;
     line-height: 40px;
     overflow: auto;
