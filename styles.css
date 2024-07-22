@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
 }
 
 header{
@@ -73,6 +74,34 @@ main{
     position: relative;
 }
 
+main .arrow{
+    width: 40px;
+    height: 40px;
+    background-color: #32012F;
+    line-height: 40px;
+    border-radius: 6px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+main .arrow:hover{
+    background-color: #F97300;
+}
+
+main .arrow a{
+    color: #fff;
+    text-decoration: none;
+    /* position: fixed; */
+}
+
+main .arrow a i{
+    font-size: 24px;
+    line-height: 40px;
+}
+
 main h2{
     font-size: 24px;
     color: #F97300;
@@ -98,7 +127,7 @@ main .right-line{
 
 .row-1{
     width: 100%;
-    height: 500px;
+    height: 458px;
     margin-top: 10px;
     /* border: 2px solid; */
     position: relative;
@@ -109,7 +138,8 @@ main .right-line{
     background-color: #fff;
     border: 1px solid #ccc;
     border-radius: 5px;
-    padding: 20px;
+    padding: 10px;
+    box-shadow: rgba(60, 64, 67, 0.7) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 }
 
 .pro-2{
@@ -132,7 +162,7 @@ main .right-line{
 }
 
 .product img {
-    max-width: 100%;
+    width: 100%;
     height: 300px;
     margin-bottom: 10px;
     border-radius: 4px;
@@ -167,8 +197,8 @@ button:hover {
 
 .row-2{
     width: 100%;
-    height: 500px;
-    margin-top: 5px;
+    height: 458px;
+    margin-top: 10px;
     /* border: 2px solid; */
     position: relative;
 }
@@ -194,8 +224,8 @@ button:hover {
 
 .row-3{
     width: 100%;
-    height: 500px;
-    margin-top: 5px;
+    height: 458px;
+    margin-top: 10px;
     /* border: 2px solid; */
     position: relative;
 }
@@ -221,8 +251,8 @@ button:hover {
 
 .row-4{
     width: 100%;
-    height: 500px;
-    margin-top: 5px;
+    height: 458px;
+    margin-top: 10px;
     /* border: 2px solid; */
     position: relative;
 }
@@ -248,8 +278,8 @@ button:hover {
 
 .row-5{
     width: 100%;
-    height: 500px;
-    margin-top: 5px;
+    height: 458px;
+    margin-top: 10px;
     /* border: 2px solid; */
     position: relative;
 }
@@ -273,11 +303,65 @@ button:hover {
     right: 0;
 }
 
+.row-6{
+    width: 100%;
+    height: 458px;
+    margin-top: 10px;
+    /* border: 2px solid; */
+    position: relative;
+}
+
+.pro-22{
+    position: absolute;
+    top: 0;
+    left: 25.2%;
+
+}
+
+.pro-23{
+    position: absolute;
+    top: 0;
+    left: 50.5%;
+}
+
+.pro-24{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.row-7{
+    width: 100%;
+    height: 458px;
+    margin-top: 10px;
+    /* border: 2px solid; */
+    position: relative;
+}
+
+.pro-26{
+    position: absolute;
+    top: 0;
+    left: 25.2%;
+
+}
+
+.pro-27{
+    position: absolute;
+    top: 0;
+    left: 50.5%;
+}
+
+.pro-28{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
 footer{
     width: 100%;
     height: 40px;
     background-color: #32012F;
-    margin-top: 5px;
+    margin-top: 10px;
     text-align: center;
     line-height: 40px;
     overflow: auto;
